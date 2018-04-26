@@ -1,0 +1,18 @@
+{
+  "name": "accessibility-analysis",
+  "version": "0.0.1",
+  "description": "Generate accessibility analysis for Carto Builder",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^3.0.1",
+    "axe-reports": "^1.1.8",
+    "axe-webdriverjs": "^2.0.0",
+    "require": "^2.4.20",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

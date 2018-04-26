@@ -1,0 +1,7 @@
+{
+  "browser": "chrome",
+  "tags": ["wcag2a", "wcag2aa"],
+  "create": true,
+  "path": "reports",
+  "format": "csv"
+}
