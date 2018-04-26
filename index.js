@@ -22,12 +22,12 @@ function generatePageReport (page) {
 
 function exportReport (filename) {
   axeBuilder.analyze((results) => {
-    return AxeReports.processResults(
+    return Promise.resolve(AxeReports.processResults(
       results,
       config.format,
       `${config.path}/${filename}`,
       config.create
-    );
+    ));
   });
 }
 

@@ -1,13 +1,13 @@
 {
-  "name": "accessibility-analysis",
+  "name": "axe-report-generator",
   "version": "0.0.1",
-  "description": "Generate accessibility analysis for Carto Builder",
+  "description": "Generate accessibility analysis using aXe engine and aXe reports",
   "main": "index.js",
   "scripts": {
     "generate": "node index"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "elenatorro@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "axe-core": "^3.0.1",
     "axe-reports": "^1.1.8",
